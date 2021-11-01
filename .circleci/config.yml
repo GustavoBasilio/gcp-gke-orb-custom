@@ -49,7 +49,7 @@ workflows:
       #     path: ./src/tests
       # Publish development version(s) of the orb.
       - orb-tools/publish-dev:
-          orb-name: GustavoBasilio/<orb-name>
+          orb-name: GustavoBasilio/gcp-gke-orb-custom
           # context: <publishing-context> # A restricted context containing your private publishing credentials. Will only execute if approved by an authorized user.
           requires:
             - orb-tools/lint
